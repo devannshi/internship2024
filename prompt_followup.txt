@@ -1,0 +1,1 @@
+The following details have been provided by the user in the areas previously considered lacking. Using this, plus the meeting minutes above, please generate the final BRD. Disregard the JSON return from previously, in this case it is pivotal that you return the BRD text, formatted as previously specified.

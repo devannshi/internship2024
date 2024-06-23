@@ -1,0 +1,16 @@
+Based on the meeting minutes above, generate  meeting summary and a detailed Business Requirement Document (BRD) that includes the following for each functional or non-functional requirement:
+    - Assumptions
+    - Constraints
+    - Dependencies
+    - Acceptance criteria
+What kind of technical stack makes sense for this requirement?
+Can you assess the accuracy % of this Business Requirement Document?
+This document is to be generated as a regular TEXT file. It will later be processed further.
+
+However, if any areas of the provided minutes are insufficient for generating an area of the BRD, DO NOT generate the BRD and instead return the following, and ONLY the following:
+{
+ "INSUFFICIENT_INFORMATION": [
+
+   ]
+}
+i.e. a JSON string with INSUFFICIENT_INFORMATION as the key and a list of the areas lacking information. DO NOT return anything else in this case; it is needed for parsing.
